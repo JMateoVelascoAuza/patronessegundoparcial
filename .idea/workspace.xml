@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72230a2e-a669-4975-b267-e4c9afa6e943" name="Changes" comment="primer commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio2/Jugador.java" afterDir="false" />
+    <list default="true" id="72230a2e-a669-4975-b267-e4c9afa6e943" name="Changes" comment="tercer Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio2/ChatEquipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio2/ChatEquipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio4/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio4/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio4/Estudiante.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655208102096</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tercer Commit">
+      <created>1655210515692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655210515692</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prueba" />
     <MESSAGE value="primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
+    <MESSAGE value="tercer Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tercer Commit" />
   </component>
 </project>

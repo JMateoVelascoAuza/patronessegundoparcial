@@ -2,27 +2,26 @@ package ejercicio1;
 
 public class Client {
     public static void main(String[] args){
-        Github github= new Github();
-        Git git= new Git();
+        Versionador versionador = new Versionador();
+        AlmacenamientoArchivo almacenamientoArchivo = new AlmacenamientoArchivo();
 
-        Codigo codigo;
-        codigo= new Codigo("public class..","iniciado",false);
+        Texto texto = new Texto("este documento es una prueba");
+        versionador.setVersion(texto);
+        almacenamientoArchivo.createSave(versionador.createVersion());
+        texto = new Texto(texto.getTexto()+" el exito solo depende de tu esfuerzo");
+        versionador.setVersion(texto);
+        almacenamientoArchivo.createSave(versionador.createVersion());
+        texto = new Texto(texto.getTexto()+" prologo");
+        versionador.setVersion(texto);
+        almacenamientoArchivo.createSave(versionador.createVersion());
+        texto = new Texto(texto.getTexto()+" este documento fye actualizado satisfactoriamente");
+        versionador.setVersion(texto);
+        almacenamientoArchivo.createSave(versionador.createVersion());
+        System.out.println(texto.getTexto());
 
-        codigo.setLiniasCodigo("public interface ..");
-        codigo.setStoryComplete(true);
 
-        github.createCommit("5096ee",git.createCommit());
-        codigo= new Codigo("puclic abstract clas...","add persona",false);
-        codigo= new Codigo("Class Person","add persona",false);
-        codigo= new Codigo("Class Est","add estudiante",true);
-        git.setCommit(codigo);
-        github.createCommit("8096ez",git.createCommit());
-        codigo= new Codigo("Class Doc","add doc",false);
-        codigo= new Codigo("Class Product","add product",false);
-
-        codigo = git.restoreCommit(github.getCommit("8096ez"));
-        codigo.showInfo();
-
+        texto = versionador.restoreVersion(almacenamientoArchivo.getSave("version3"));
+        System.out.println(texto.getTexto());
     }
 
 }
